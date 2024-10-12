@@ -1,0 +1,104 @@
+body,
+body *,
+body *::before,
+body *::after {margin:0;padding:0;border:0;background:transparent;box-sizing:border-box;text-decoration:none;outline:none;font-family:inherit;}
+ol, ul, li {list-style:none;display:block;}
+table {border-collapse: collapse;border-spacing:0;}
+a img {border: none;}
+
+input,
+textarea,
+select,
+button,
+input{appearance: none; border-radius: 0;}
+
+button,
+a{cursor: pointer; color: inherit;}
+textarea{resize: none;}
+
+[readonly] + span,
+[readonly]{pointer-events: none; opacity: .4;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(174, 89, 235);
+    display: flex;
+    justify-content: center;
+}
+
+.movie{
+    text-align: center;
+    position: relative;
+    border: solid;
+    padding: 15px;
+    border-radius: 30px;
+    width: 1000px;
+    background-color: rgb(207, 184, 223);
+}
+
+.welcome{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(174, 89, 235);
+    font-size: 150px;
+}
+
+.link1{
+    text-align: center;
+    padding: 15px;
+    top: 220px;
+    left: 500px;
+    border: solid;
+    width: 450px;
+    background-color: rgb(174, 89, 235);
+    font-size: 15px;
+    position: absolute;
+}
+
+.link2{
+    text-align: center;
+    padding: 15px;
+    top: 280px;
+    left: 500px;
+    border: solid;
+    width: 450px;
+    background-color: rgb(174, 89, 235);
+    font-size: 15px;
+    position: absolute;
+}
+
+.link3{
+    text-align: center;
+    padding: 15px;
+    top: 340px;
+    left: 500px;
+    border: solid;
+    width: 450px;
+    background-color: rgb(174, 89, 235);
+    font-size: 15px;
+    position: absolute;
+}
+
+.link4{
+    text-align: center;
+    padding: 15px;
+    top: 400px;
+    left: 500px;
+    border: solid;
+    width: 450px;
+    background-color: rgb(174, 89, 235);
+    font-size: 15px;
+    position: absolute;
+}
+
+.link5{
+    text-align: center;
+    padding: 15px;
+    top: 460px;
+    left: 500px;
+    border: solid;
+    width: 450px;
+    background-color: rgb(174, 89, 235);
+    font-size: 15px;
+    position: absolute;
+}
